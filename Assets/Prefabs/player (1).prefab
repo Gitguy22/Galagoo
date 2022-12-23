@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5482807036704055552}
   - component: {fileID: 5675096333568521254}
   - component: {fileID: 2033843454341796235}
+  - component: {fileID: -5522577672151820293}
   m_Layer: 0
   m_Name: player (1)
   m_TagString: Untagged
@@ -118,4 +119,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 6462383588753219879, guid: 106c380475627436ca10b96f11ee96e9, type: 3}
+--- !u!61 &-5522577672151820293
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5482807036704055553}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.57, y: 11.61}
+    newSize: {x: 10.57, y: 11.61}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.57, y: 11.61}
+  m_EdgeRadius: 0

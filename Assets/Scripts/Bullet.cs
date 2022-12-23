@@ -20,9 +20,10 @@ public class Bullet : MonoBehaviour
     }
     public void Shoot(Vector2 direction, float force)
     {
-        bulletRigidBody.AddForce(direction * force);
+       bulletRigidBody.AddForce(direction * force);
     }
-
+    
+    
     private void OnCollisionEnter2D(Collision2D other)
     {
         Destroy(other.gameObject);
